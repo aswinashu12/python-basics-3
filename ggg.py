@@ -1,0 +1,5 @@
+f=open("demofile2.txt","a")
+f.write("this is awesome")
+f.close()
+f=open("demofile2.txt","r")
+print(f.read())
